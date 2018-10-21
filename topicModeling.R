@@ -14,7 +14,7 @@ library(topicmodels)
 #get listing of .txt files in directory
 #data <- list.files(getwd(),pattern="*.txt")
 
-data<-read.csv("Game_of_thrones.csv",header=TRUE,stringsAsFactors=FALSE)
+data<-read.csv("Game_of_Thrones.csv",header=TRUE,stringsAsFactors=FALSE)
 data <- data$Text
 
 #read files into a character vector
